@@ -1,0 +1,1 @@
+create_clock -name clok -period 13.333 [get_pins {mypll1|mypll1_inst|altera_pll_i|outclk_wire[0]~CLKENA0|outclk}]
